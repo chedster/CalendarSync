@@ -1,0 +1,17 @@
+{
+  "name": "CalendarSync",
+  "version": "1.0",
+  "description": "Never miss another assignment deadline. Synchronize your Canvas and Google Calendars. Pulls your assignments from Canvas and adds them to your Google Calendar.",
+  "background": {"page": "background.html"},
+  "manifest_version": 2,
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.2.min.js", "background.js" ],
+    "css": ["customStyles.css"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
