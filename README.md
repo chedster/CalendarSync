@@ -1,4 +1,4 @@
-![CalendarSync Logo](https://github.com/chedster/CalendarSync/blob/master/icon.png)
+![CalendarSync Logo](https://github.com/chedster/chedster.github.io/blob/master/assets/images/calendarSync.png)
 ===================================================================================
 
 *Tired of having to constantly log into Canvas to check for assignments? Let CalendarSync synchronize your Canvas and Google calendars!*
